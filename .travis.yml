@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 14.17.1
+before_install:
+  - npm install -g @angular/cli
+install: npm install
+branches:
+  only:
+    - master
+deploy:
+  provider: heroku
+  app: only-my-netflix
+  api_key:
+    secure: XALw3Yp9EBF8siDLetWwkDEbhg6n9F+Uk9PTmqncTEJb1Z1ddof1xziIAOuvFE4EnLbBdH5oWRD5YnlHimK6rtpawGlq5tPyGM138KRiCqfA1T2CUd1HddCF10bRyOKqrnlJ5GVTKQ7K7O7wBMBi1nBn5wV+fIElCC216M+22FFVT9qXpn8F+SJ6UDD9GK04LoYC4mtLosj6sqdGmWUvDjtZttLGKlC8KzpqQHzuH/qzShCqME8h7bihrCBBakjr/1ZIL3eY9TvYH9A1pZNMfdGBrtD1a0N16XVilKJH2D5MyjtMg8br32ImYjOSOY1VbFCrvCuVAp/aRdHm75i5Y7k2Z7JaMWVwZjrmekRthzPVyaMH46GKEp64Vo69ym0tGcYLhILFJcHVHk8myNT/GQyxxqqdcoOEKc4N/hXwc2cCMkJb94Mt/pzWGbzMWFxvscfJzV6vMJ0xsNZCrOa5z67tbCVzx9E/Q8MVrUYXqUghhUMfEYJjWpE6+j2s5lOLGr9UMcCytb0ueH5nCq5JSBau1Zte1gtht81QP92jVPZmZzA7B0o5DJ7fuscQwA+i3WCt8M3EoVaVQ7E609oD904maesZyYArJ7rkFghl9SzcnzJD9uP3f4xxCENfGJE9a7IIY802bIiEm1huKo8fkJZuK4NEQIju7SnWK5CqE5c=

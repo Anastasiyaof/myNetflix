@@ -1,0 +1,22 @@
+.search {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 7%;
+	input {
+		padding: 5px;
+	}
+}
+.friends-block {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin: 0 auto;
+}
+.friend {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	h3 {
+		margin: 0;
+	}
+}

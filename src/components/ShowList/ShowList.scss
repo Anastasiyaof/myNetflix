@@ -1,0 +1,22 @@
+.info {
+	position: relative;
+	margin-left: 10px;
+	text-align: center;
+	flex-grow: 1;
+	.score-block {
+		position: absolute;
+		bottom: 4%;
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		font-size: 20px;
+		font-weight: 800;
+		.icon {
+			font-size: 20px;
+		}
+		.favorite {
+			color: #630303;
+			font-size: 22px;
+		}
+	}
+}

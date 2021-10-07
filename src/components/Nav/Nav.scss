@@ -1,0 +1,29 @@
+header {
+	display: flex;
+	position: sticky;
+	top: 0;
+	padding: 30px;
+	background: black;
+	a {
+		text-decoration: none;
+		color: white;
+		font-weight: 100;
+		font-size: 18px;
+	}
+	.logo-wrap {
+		width: 100px;
+		display: flex;
+		align-items: center;
+		.logo {
+			width: 100%;
+		}
+	}
+	nav {
+		margin-left: 20px;
+		display: flex;
+	}
+}
+.active {
+	font-weight: 500;
+	font-size: 18px;
+}
